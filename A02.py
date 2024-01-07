@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-    return "<H1>Hello Web.py</H1>"
+    return "<H1>Hello Web</H1>"
 
 @app.route("/start")
 def start():
